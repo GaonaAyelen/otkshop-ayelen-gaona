@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOSTRAPT -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Carrito</title>
+</head>
+
+<body>
+    <header>
+        <!-- NAVBAR CON BOOTSTRAP -->
+        <nav class="navbar navbar-expand-lg  navegacion">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="logoOtk" src="../img/logootk.jpg" alt="logo otk">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto menuOtk">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html"> Ingresar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="register.html"> Registrate </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html"> Nuestros productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carrito.html"> Carrito </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+    <main>
+        <h2>TU CARRITO ESTÁ VACÍO...</h2>
+        <h3>Encontrá la mejor indumentaria, accesorios, medias, y mucho mas .</h3>
+        <button type="button" class="btn btnButton"> Seguir comprando </button>
+
+        <h3> Productos que te pueden interesar...</h3>
+
+        <div class="cardCarrito">
+            <div class="card  producInter" style="width: 18rem;">
+                <img src="../img/naruto-21.jpg" class="card-img-top" alt="remera de naruto">
+                <div class="card-body">
+                    <p class="card-text"> Remera de naruto, unisex, todos lod talles, exelente calidad.</p>
+                </div>
+            </div>
+
+            <div class="card producInter" style="width: 18rem;">
+                <img src="../img/IMG_20211005_205434351.jpg" class="card-img-top" alt=" remera de tanjiro">
+                <div class="card-body">
+                    <p class="card-text"> Buzo sin capucha, unisex, de algodon, exelente calidad.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;2023 OTK shop
+            Todos los derechos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
