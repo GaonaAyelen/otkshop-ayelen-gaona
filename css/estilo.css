@@ -115,9 +115,6 @@ h2 {
 
 
 
-
-
-
 /* Formulario */
 
 /* form{
@@ -164,6 +161,15 @@ h2 {
     border: 5px;
 }
 
+/* BOTON LOGIN */
+.botonLink{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
 
 
 /* BOTONES CARD */
@@ -171,6 +177,7 @@ h2 {
 .btnButton {
     background-color: rgb(242, 149, 250);
     color: black;
+   
 }
 
 .btnButton:hover {
@@ -219,6 +226,9 @@ h2 {
         width: 70%;
 
     }
+    .card {
+        margin: 10px;
+    }
 }
 
 @media screen and (max-width: 1020px) {
@@ -264,6 +274,15 @@ h2 {
 @media screen and (max-width: 600px) {
     .imgLogin {
         margin: auto;
+    }
+
+    .botonLink{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+
     }
 
 }
