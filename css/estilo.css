@@ -190,14 +190,17 @@ h2 {
 
 }
 
-.img-fluid {
+/* LOGIN  */
+
+.imgLogin {
     margin: 30px;
+    
 
 }
 
 .imagenCard {
     box-shadow: 5px 8px 12px black;
-}
+} 
 
 
 
@@ -242,6 +245,25 @@ h2 {
         flex-direction: column;
         text-align: center;
 
+    }
+
+}
+@media screen and (max-width: 600px) {
+
+    .contenedorProducto {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .imgLogin {
+        margin: auto;
     }
 
 }
